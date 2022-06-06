@@ -1,0 +1,22 @@
+#headingText{
+  text-align: center;
+}
+#value{
+  background: lightgrey;
+}
+.bg{
+  background: black;
+  
+}
+.mx-auto{
+  margin: auto;
+}
+.flex-row{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.items{
+  align-items: center;
+}
