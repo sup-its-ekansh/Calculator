@@ -40,6 +40,21 @@ Array.from(buttons).forEach((button)=> {
         string= screen.value
         
       }
+      else if (event.target.innerHTML == "COS") {
+        var x = eval(screen.value);
+        x = x * Math.PI / 180;
+        screen.value = Math.cos(x);
+        string= screen.value
+        
+      }
+      else if (event.target.innerHTML == "TAN") {
+        var x = eval(screen.value);
+        x = x * Math.PI / 180;
+        screen.value = Math.tan(x);
+        string= screen.value
+        
+      }
+       
       else if(event.target.innerHTML==="EXT"){
         if(ext.style.display==='none'){
           ext.style.display= "inline"         
