@@ -22,5 +22,6 @@
   align-items: center;
 }
 #shadow{
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+     border: transparent;
+    box-shadow: rgb(227 219 219 / 66%) 0px 22px 70px 4px;
 }
