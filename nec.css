@@ -1,27 +1,26 @@
-#headingText{
+#headingText {
   text-align: center;
- color: white;
+  color: white;
 }
-#value{
+#value {
   background: lightgrey;
 }
-.bg{
+.bg {
   background: black;
-  
 }
-.mx-auto{
+.mx-auto {
   margin: auto;
 }
-.flex-row{
+.flex-row {
   display: flex;
 }
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
-.items{
+.items {
   align-items: center;
 }
-#shadow{
-     border: transparent;
-    box-shadow: rgb(227 219 219 / 66%) 0px 22px 70px 4px;
+#shadow {
+  border: transparent;
+  box-shadow: rgb(227 219 219 / 66%) 0px 22px 70px 4px;
 }
