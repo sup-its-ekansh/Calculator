@@ -37,11 +37,11 @@ body {
 #EXTrow {
   display: none;
 }
-.EXTrow1{
+#EXTrow1{
   display: none;
 
-/* }
+}
 #EXTrow2{
     display: none;
   
-  } */
+  }
