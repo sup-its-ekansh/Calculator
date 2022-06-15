@@ -1,38 +1,47 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-    background: url(https://scitechdaily.com/images/Algebra-Mathematics.gif);
+  background: url(https://thumbs.gfycat.com/AngryMistyAiredaleterrier.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.keys{
+.keys {
   width: 80px;
   padding: 20px;
   background: lightyellow;
   margin: 5px 3px;
   border: 3px solid black;
   border-radius: 50px;
-  cursor: pointer; 
+  cursor: pointer;
 }
-.row1{
-  margin:5px;
+.row1 {
+  margin: 5px;
 }
-#value{
+#value {
     padding: 20px;
     border-radius: 20px;
     width: 292px;
-    font-size: 53px;
+    font-size: 28px;
+    text-align: end;
 }
-.container{
+.container {
   border: 4px solid #13695d;
   padding: 23px;
   border-radius: 53px;
   width: 384px;
-  
 }
-.diff{
+.diff {
   background: yellow;
 }
-#EXTrow{
-  display:none;
+#EXTrow {
+  display: none;
 }
+.EXTrow1{
+  display: none;
+
+/* }
+#EXTrow2{
+    display: none;
+  
+  } */
