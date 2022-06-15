@@ -34,6 +34,9 @@ body {
 .diff {
   background: yellow;
 }
+.diffs {
+  background: red;
+}
 #EXTrow {
   display: none;
 }
