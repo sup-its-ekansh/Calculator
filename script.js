@@ -1,11 +1,11 @@
 let screen = document.getElementById("value");
 let ext = document.getElementById("EXTrow");
-let ext1 = document.querySelectorAll(".EXTrow1");
-console.log(ext1, 'xyz');
-// let ext2 = document.getElementById("EXTrow2");
+let ext1 = document.getElementById("EXTrow1");
+// console.log(ext1, 'xyz');
+let ext2 = document.getElementById("EXTrow2");
 
 let buttons = document.querySelectorAll(".keys");
-console.log(buttons, 'abc')
+// console.log(buttons, 'abc')
 let string = "";
 
 Array.from(buttons).forEach((button) => {
@@ -86,10 +86,10 @@ Array.from(buttons).forEach((button) => {
       if (ext.style.display === "none") {
         ext.style.display = "inline";
         ext1.style.display = "inline";
-        // ext2.style.display = "inline";
+        ext2.style.display = "inline";
       } else {
         ext1.style.display = "none";
-        // ext2.style.display = "none";
+        ext2.style.display = "none";
 
         ext.style.display = "none";
       }
